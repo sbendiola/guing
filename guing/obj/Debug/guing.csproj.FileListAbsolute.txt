@@ -1,0 +1,12 @@
+C:\src\repo\sandbox\guing\guing\guing\bin\Debug\guing.dll
+C:\src\repo\sandbox\guing\guing\guing\bin\Debug\guing.pdb
+C:\src\repo\sandbox\guing\guing\guing\bin\Debug\nunit.core.dll
+C:\src\repo\sandbox\guing\guing\guing\bin\Debug\nunit.core.interfaces.dll
+C:\src\repo\sandbox\guing\guing\guing\bin\Debug\nunit.framework.dll
+C:\src\repo\sandbox\guing\guing\guing\bin\Debug\Spring.Core.dll
+C:\src\repo\sandbox\guing\guing\guing\bin\Debug\antlr.runtime.dll
+C:\src\repo\sandbox\guing\guing\guing\bin\Debug\Common.Logging.dll
+C:\src\repo\sandbox\guing\guing\guing\bin\Debug\Spring.Core.xml
+C:\src\repo\sandbox\guing\guing\guing\obj\Debug\ResolveAssemblyReference.cache
+C:\src\repo\sandbox\guing\guing\guing\obj\Debug\guing.dll
+C:\src\repo\sandbox\guing\guing\guing\obj\Debug\guing.pdb
