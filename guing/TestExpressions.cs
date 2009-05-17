@@ -49,7 +49,23 @@ namespace guing
                         .Property(x => x.Booze(400))
                         .Bind();
             Assert.AreEqual(400, afoo.Booze());
+			
+			
         }
+		
+		[Test]
+		public void ShouldReturnDefaultValueForPrimitive() {
+			var anint = new Binder().Bind<int>("123");
+			var result = anint.Bind();
+			Assert.AreEqual(0, result);
+		}
+		
+		[Test]
+		public void ShouldSetPrimitiveValue() {
+			var anint = new Binder().Bind<int>("123");
+			var result = anint.Target(22).Bind();
+			Assert.AreEqual(22, result);
+		}
 
 //        [Test]
 //        public void ShouldSetPropertyToExpectedValue()
@@ -71,7 +87,12 @@ namespace guing
               
         public class Binder
         {
-            public Binding<T> Bind<T>(string name) where T : class
+            public Binding<T> Bind<T>(string name) 
+            {
+                return new Binding<T>();
+            }
+			
+			public Binding<T> Bind<T>(T name) 
             {
                 return new Binding<T>();
             }
